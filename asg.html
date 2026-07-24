@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Switch Guard | Honourable Divine</title>
+    <meta name="description" content="Auto Switch Guard - Electrical Fire Safety Device by Honourable Divine.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/project.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2308111f'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-family='sans-serif' font-weight='bold' font-size='20' fill='%2306b6d4'%3EHD%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+
+    <div class="grid-bg"></div>
+    <div id="progress-bar"></div>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html"><h2>HD<span>.</span></h2></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#projects" class="active">Projects</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <button class="menu-btn" id="menu-btn" aria-label="Toggle menu">
+                <svg id="menu-icon" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+                </svg>
+            </button>
+        </nav>
+        <div class="overlay" id="overlay"></div>
+    </header>
+
+    <main>
+        <!-- Project Hero -->
+        <section class="project-hero">
+            <div class="project-hero-content">
+                <span class="project-badge">
+                    <i data-lucide="shield-check" class="icon-inline" aria-hidden="true"></i>
+                    Safety Innovation
+                </span>
+                <h1>Auto Switch Guard</h1>
+                <p class="project-subtitle">Electrical Fire Safety Device</p>
+                <p class="project-description">
+                    An automatic switch-off device designed to prevent electrical fires 
+                    and appliance damage after power restoration in homes and offices.
+                </p>
+                <div class="project-hero-stats">
+                    <div class="hero-stat">
+                        <h3>2024</h3>
+                        <span>Year</span>
+                    </div>
+                    <div class="hero-stat">
+                        <h3>Safety</h3>
+                        <span>Focus</span>
+                    </div>
+                    <div class="hero-stat">
+                        <h3>Auto</h3>
+                        <span>Operation</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-hero-image">
+                <img src="images/asg.jpg" alt="Auto Switch Guard Project" loading="lazy">
+            </div>
+        </section>
+
+        <!-- Project Overview -->
+        <section class="project-section">
+            <div class="section-title">
+                <h2>Project Overview</h2>
+            </div>
+            <div class="project-content">
+                <p>
+                    The Auto Switch Guard is a safety device that automatically disconnects 
+                    electrical appliances from the mains when power is interrupted, and keeps 
+                    them disconnected until manually reset after power restoration.
+                </p>
+                <p>
+                    This prevents the dangerous situation where appliances left switched on 
+                    during a power outage suddenly come back to life when electricity is 
+                    restored, which can cause electrical fires, appliance damage, and even 
+                    electrocution hazards.
+                </p>
+            </div>
+        </section>
+
+        <!-- Problem & Solution -->
+        <section class="project-section dark-bg">
+            <div class="project-grid-2">
+                <div class="project-card">
+                    <div class="project-card-icon">
+                        <i data-lucide="alert-triangle" aria-hidden="true"></i>
+                    </div>
+                    <h3>The Problem</h3>
+                    <ul>
+                        <li>Electrical fires caused by unattended appliances after power restoration</li>
+                        <li>Appliance damage from power surges when electricity returns</li>
+                        <li>Electrocution risk from devices left switched on</li>
+                        <li>Common problem in areas with frequent power outages</li>
+                    </ul>
+                </div>
+                <div class="project-card">
+                    <div class="project-card-icon">
+                        <i data-lucide="lightbulb" aria-hidden="true"></i>
+                    </div>
+                    <h3>The Solution</h3>
+                    <ul>
+                        <li>Automatic cut-off when power is interrupted</li>
+                        <li>Manual reset required after power restoration</li>
+                        <li>Protection against voltage surges</li>
+                        <li>Simple, affordable, and easy to install</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Details -->
+        <section class="project-section">
+            <div class="section-title">
+                <h2>Technical Process</h2>
+            </div>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <h3>Circuit Design</h3>
+                    <p>Designed a relay-based switching circuit with voltage sensing capabilities.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <h3>Prototype</h3>
+                    <p>Built working prototype on breadboard with Arduino microcontroller.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <h3>Testing</h3>
+                    <p>Rigorous testing under various power interruption and restoration scenarios.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <h3>Enclosure</h3>
+                    <p>Designed compact, wall-mountable housing for home and office installation.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technologies Used -->
+        <section class="project-section dark-bg">
+            <div class="section-title">
+                <h2>Technologies & Materials</h2>
+            </div>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <i data-lucide="cpu" aria-hidden="true"></i>
+                    <span>Arduino</span>
+                </div>
+                <div class="tech-item">
+                    <i data-lucide="toggle-right" aria-hidden="true"></i>
+                    <span>Relay Module</span>
+                </div>
+                <div class="tech-item">
+                    <i data-lucide="zap" aria-hidden="true"></i>
+                    <span>Voltage Sensor</span>
+                </div>
+                <div class="tech-item">
+                    <i data-lucide="shield" aria-hidden="true"></i>
+                    <span>Protection Circuit</span>
+                </div>
+                <div class="tech-item">
+                    <i data-lucide="power" aria-hidden="true"></i>
+                    <span>Power Supply</span>
+                </div>
+                <div class="tech-item">
+                    <i data-lucide="box" aria-hidden="true"></i>
+                    <span>ABS Enclosure</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Results & Impact -->
+        <section class="project-section">
+            <div class="section-title">
+                <h2>Results & Impact</h2>
+            </div>
+            <div class="impact-grid-3">
+                <div class="impact-item">
+                    <div class="impact-icon-large">
+                        <i data-lucide="flame" aria-hidden="true"></i>
+                    </div>
+                    <p>Prevention of electrical fires in homes</p>
+                </div>
+                <div class="impact-item">
+                    <div class="impact-icon-large">
+                        <i data-lucide="plug" aria-hidden="true"></i>
+                    </div>
+                    <p>Protection of appliances from surge damage</p>
+                </div>
+                <div class="impact-item">
+                    <div class="impact-icon-large">
+                        <i data-lucide="home" aria-hidden="true"></i>
+                    </div>
+                    <p>Affordable home safety for Nigerian households</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Back to Projects -->
+        <section class="project-nav">
+            <a href="index.html#projects" class="btn-primary">
+                <i data-lucide="arrow-left" class="icon-inline" aria-hidden="true"></i>
+                Back to Projects
+            </a>
+            <a href="index.html#projects" class="btn-secondary">
+                <i data-lucide="grid" class="icon-inline" aria-hidden="true"></i>
+                All Projects
+            </a>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-bottom">
+            <p>&copy; 2026 <strong>DIVION Technologies</strong> &bull; Designed & Developed by <strong>Samuel Ubon Divine</strong></p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+    <script src="js/script.js"></script>
+</body>
+</html>

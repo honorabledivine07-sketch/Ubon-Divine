@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPAAR | Honourable Divine</title>
+    <meta name="description" content="SPAAR - Solar Powered AI Agricultural Robot by Honourable Divine.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/project.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2308111f'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' font-family='sans-serif' font-weight='bold' font-size='20' fill='%2306b6d4'%3EHD%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+
+    <div class="grid-bg"></div>
+    <div id="progress-bar"></div>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html"><h2>HD<span>.</span></h2></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#projects" class="active">Projects</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <button class="menu-btn" id="menu-btn" aria-label="Toggle menu">
+                <svg id="menu-icon" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+                </svg>
+            </button>
+        </nav>
+        <div class="overlay" id="overlay"></div>
+    </header>
+
+    <main>
+        <!-- Project Hero -->
+        <section class="project-hero">
+            <div class="project-hero-content">
+                <span class="project-badge">
+                    <i data-lucide="bot" class="icon-inline" aria-hidden="true"></i>
+                    AI Robotics
+                </span>
+                <h1>SPAAR</h1>
+                <p class="project-subtitle">Solar Powered AI Agricultural Robot</p>
+                <p class="project-description">
+                    An intelligent solar-powered agricultural robot designed for precision farming, 
+                    crop monitoring, and automated field operations using AI and IoT technologies.
+                </p>
+                <div class="project-hero-stats">
+                    <div class="hero-stat">
+                        <h3>2025</h3>
+                        <span>Year</span>
+                    </div>
+                    <div class="hero-stat">
+                        <h3>ESP32</h3>
+                        <span>Platform</span>
+                    </div>
+                    <div class="hero-stat">
+                        <h3>AI</h3>
+                        <span>Powered</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-hero-image">
+                <img src="images/spaar.jpg" alt="SPAAR Project" loading="lazy">
+            </div>
+        </section>
+
+        <!-- Project Overview -->
+        <section class="project-section">
+            <div class="section-title">
+                <h2>Project Overview</h2>
+            </div>
+            <div class="project-content">
+                <p>
+                    SPAAR is a solar-powered agricultural robot that combines artificial intelligence 
+                    with precision farming techniques. The robot autonomously navigates farmland, 
+                    monitors crop health, detects diseases early, and optimizes irrigation.
+                </p>
+                <p>
+                    Built on the ESP32 platform, SPAAR uses machine learning algorithms to analyze 
+                    soil conditions, plant health, and environmental data in real-time, helping 
+                    farmers make smarter decisions while reducing water waste and increasing yields.
+                </p>
+            </div>
+        </section>
+
+        <!-- Problem & Solution -->
+        <section class="project-section dark-bg">
+            <div class="project-grid-2">
+                <div class="project-card">
+                    <div class="project-card-icon">
+                        <i data-lucide="alert-triangle" aria-hidden="true"></i>
+                    </div>
+                    <h3>The Problem</h3>
+                    <ul>
+                        <li>Manual farming is labor-intensive and inefficient</li>
+                        <li>Excessive water waste in traditional irrigation</li>
+                        <li>Late detection of crop diseases</li>
+                        <li>Limited access to precision farming tools in Africa</li>
+                    </ul>
+                </div>
+                <div class="project-card">
+                    <div class="project-card-icon">
+                        <i data-lucide="lightbulb" aria-hidden="true"></i>
+                    </div>
+                    <h3>The Solution</h3>
+                    <ul>
+                        <li>AI-powered robot for autonomous field monitoring</li>
+                        <li>Real-time crop health analysis using sensors</li>
+                        <li>Smart irrigation based on soil moisture data</li>
+                        <li>Solar-powered for sustainable off-grid operation</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Details -->
+        <section class="project-section">
+            <div class="section-title">
+                <h2>Technical Process</h2>
+            </div>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <h3>Design</h3>
+                    <p>Mechanical chassis and solar power system designed for rugged farm terrain.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <h3>Sensors</h3>
+                    <p>Integration of soil moisture, temperature, humidity, and camera sensors.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <h3>AI Training</h3>
+                    <p>Machine learning model trained to detect crop diseases and assess plant health.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <h3>Deployment</h3>
+                    <p>Field testing and autonomous navigation calibration on real farmland.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technologies Used -->
+        <section class="project-section dark-bg">
+            <div class="section-title">
+                <h2>Technologies & Materials</h2>
+            </div>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <i data-lucide="cpu" aria-hidden="true"></i>
+                    <span>ESP32</span>
+                </div>
+                <div class="tech-item">
+                    <i data-lucide="brain" aria-hidden="true"></i>
+                    <span>AI / ML</span>
+                </div>
+                <div class="tech-item">
+                    <i data-lucide="sun" aria-hidden="true"></i>
+                    <span>Solar Panels</span>
+                </div>
+                <div class="tech-item">
+                    <i data-lucide="camera" aria-hidden="true"></i>
+                    <span>Camera Module</span>
+                </div>
+                <div class="tech-item">
+                    <i data-lucide="thermometer" aria-hidden="true"></i>
+                    <span>Sensors</span>
+                </div>
+                <div class="tech-item">
+                    <i data-lucide="cog" aria-hidden="true"></i>
+                    <span>DC Motors</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Results & Impact -->
+        <section class="project-section">
+            <div class="section-title">
+                <h2>Results & Impact</h2>
+            </div>
+            <div class="impact-grid-3">
+                <div class="impact-item">
+                    <div class="impact-icon-large">
+                        <i data-lucide="target" aria-hidden="true"></i>
+                    </div>
+                    <p>Precision farming with real-time crop monitoring</p>
+                </div>
+                <div class="impact-item">
+                    <div class="impact-icon-large">
+                        <i data-lucide="droplets" aria-hidden="true"></i>
+                    </div>
+                    <p>Significant reduction in water consumption</p>
+                </div>
+                <div class="impact-item">
+                    <div class="impact-icon-large">
+                        <i data-lucide="trending-up" aria-hidden="true"></i>
+                    </div>
+                    <p>Increased crop yield through early disease detection</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Back to Projects -->
+        <section class="project-nav">
+            <a href="index.html#projects" class="btn-primary">
+                <i data-lucide="arrow-left" class="icon-inline" aria-hidden="true"></i>
+                Back to Projects
+            </a>
+            <a href="helioai.html" class="btn-secondary">
+                Next Project: HelioAI
+                <i data-lucide="arrow-right" class="icon-inline" aria-hidden="true"></i>
+            </a>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-bottom">
+            <p>&copy; 2026 <strong>DIVION Technologies</strong> &bull; Designed & Developed by <strong>Samuel Ubon Divine</strong></p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+    <script src="js/script.js"></script>
+</body>
+</html>
